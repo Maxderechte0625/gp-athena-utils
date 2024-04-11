@@ -1,7 +1,7 @@
 import { Player } from 'alt-server';
-import * as Athena from '@AthenaServer/api';
-import * as charRef from '@AthenaShared/interfaces/character';
-import { deepCloneObject } from '@AthenaShared/utility/deepCopy';
+import * as Athena from '@AthenaServer/api/index.js';
+import * as charRef from '@AthenaShared/interfaces/character.js';
+import { deepCloneObject } from '@AthenaShared/utility/deepCopy.js';
 
 /**
  * @deprecated replace data
